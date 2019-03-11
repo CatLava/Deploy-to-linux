@@ -1,8 +1,8 @@
 # Deploy-to-linux
 
 This Readme is to outline everything maintained and included in this Ubuntu 16 Server.
-ip: 34.213.226.45
-url: 34.213.226.45.xip.io 
+-ip: 34.213.226.45
+-url: 34.213.226.45.xip.io 
 Server is deployed from a previous catalog project seen here. https://github.com/CatLava/Catalog
 
 Config: This server is configured with
