@@ -20,7 +20,11 @@ that was passed along in the Udacity assignment. The public key was uploaded to 
 4. sudo nano /etc/ssh/sshd_config : this will open the editor to configure sshd rules
 5. /var/www/html/Catalog : Is where error logs and application is routed and stored
 
+There were many ancillary steps to this, but the above give a general taste of what was need. Also think packages to install
+This may vary if deployment is not on an Ubuntu server.
+
 Config: This server is configured with
+
 http : 80
 ssh : 2200
 ntp : 123
