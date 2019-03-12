@@ -3,10 +3,12 @@
 This Readme is to outline everything maintained and included in this Ubuntu 16 Server.
 -ip: 34.213.226.45
 -url: 34.213.226.45.xip.io 
+
 Server is deployed from a previous catalog project seen here. https://github.com/CatLava/Catalog
 The deployment is made possible with apache2 an WSGI combination. WSGI enables appropriate routing
 when navigating the webpage. The WSGI config page is directed to the main application (application.py) script
 with associated error logs.
+
 Appropraite security measures were taken with this server to lock it down. For example changing configs in the sshd_config 
 file to allow port 2200 ssh and to prevent root ssh. Access to this server is only allowed with the appropriate private key
 that was passed along in the Udacity assignment. The public key was uploaded to the authorized_keys folder of the grader user and given appropriate permissions. 
